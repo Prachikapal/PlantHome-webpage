@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Oswald:wght@200;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f4f4;
+}
+
+/* NAVBAR */
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#navFirst {
+    width: 100px;
+    height: 60px;
+}
+
+#navFirst > img{
+    width: 100%;
+    height: 100%;
+}
+
+#navMid{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Allerta", "Abel";
+}
+
+#navMid div:first-of-type > h4{
+    margin-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+
+#navEnd{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MID */
+
+#midWhole{
+    position: relative;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+#midWholePart1{
+    margin-top: 100px;
+    position:absolute;
+    left:3%;
+    width: 50%;
+}
+
+#midWholePart11{
+    font-family: "Montserrat", "Allerta", "Abel";
+}
+
+#monstera{
+    font-weight:800;
+    font-size:80px;
+}
+
+#midWholePart11 li{
+    font-size: 23px;
+}
+
+#midWholePart12{
+    position: relative;
+    font-family: "Allerta" ;
+    width:200px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #1b6435;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+#midWholePart121 div:first-child {
+    position: absolute;
+    top:15%;
+    left: 13%;
+}
+
+#midWholePart122{
+    position: absolute;
+    top:29%;
+    right: 10%;
+}
+
+#midWholePart122 > img {
+    width: 20px;
+    height: 20px;
+}
+
+#midWholePart2 {
+    z-index: -1;
+    position: absolute;
+    right: 0%;
+}
+
+#midWholePart13{
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midWholePart13Parts{
+    position: relative;
+    width: 30%;
+    height: 70px;
+}
+
+.midWholePart13Parts div{
+    display: inline-block;
+    position: absolute;
+}
+
+.midWholePart13Parts div:first-child{
+    left: 0%;
+    height: 100%;
+}
+
+#feeding{
+    width:60px;
+    height: 60px;
+    margin-left: -20px;
+}
+
+#light, #care{
+    width:40px;
+    height: 40px;
+}
+
+
+.midWholePart13Parts div:last-child{
+    right: 0%;
+    width: 80%;
+    height: 100%;
+    font-family: "Allerta", "Abel";
+    padding-left: 5px;
+}
+
+.midWholePart13Parts h4{
+    font-size: 16px;
+}
+
+.text{
+    font-size: 10px;
+}
+
+
+
+
+
